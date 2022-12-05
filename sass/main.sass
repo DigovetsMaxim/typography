@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico')
+@import url('https://fonts.googleapis.com/css?family=Bad+Script')
+@import url('https://fonts.googleapis.com/css?family=Neucha')
+
+$font1: 'Pacifico', cursive
+$font: 'Neucha', cursive
+//---------------------------HEADER-----------------------	
+
+header
+	position: fixed
+	background-color: #f3f3f3
+	text-align: center
+	height: 60px
+	width: 100%
+	z-index: 999
+	.logo
+		padding-top: 10px
+		a
+			img
+				width: 70%
+	.menu
+		font-family: $font1
+		padding-top: 13px
+		text-align: right
+		ul
+			list-style: none
+			li
+				display: inline-block
+				padding-top: 5px
+				a
+					text-decoration: none
+					outline: none
+					padding: 7px 10px
+					color: #000
+					font-size: 18px
+					&:hover
+						transition: 0.8s
+						border-radius: 40px
+						background-color: #19bd9a
+						color: #fff
+
+
+//--------------------------About---------------------------
+
+
+.about
+	background-color: #f9f9f9
+	.top_text
+		text-align: center
+		font-family: $font
+		font-size: 18px
+		padding: 90px 0 20px 0
+	.text
+		font-size: 18px
+		word-wrap: break-word
+		text-indent: 1.5em
+		padding-bottom: 30px
+		font-family: $font
+
+
+//----------------------------SERVICES------------------
+
+.services
+	font-family: $font
+	background-color: #f9f9f9
+	font-size: 18px
+	.top_text
+		text-align: center
+	.text
+		text-indent: 1.5em
+		&:first-child
+			text-align: center
+			padding-bottom: 10px
+		&:nth-child(9n)
+			//padding-bottom: 20px
+//----------------------------SLIDER-----------------
+
+
+.slider
+	padding-top: 60px
+	background-color: #f9f9f9
+	#maket
+		padding: 0px 0
+
+
+//--------------------------MAKET---------------------
+
+
+.maket
+	background-color: #f9f9f9
+	.text
+		padding: 65px 0px 20px 0
+		font-family: $font
+		font-size: 16px
+		.col-md-6
+			text-align: center
+			#dots
+				font-family: $font
+				font-size: 18px	
+		#more
+			display: none	
+		.text1
+			text-transform: uppercase
+			font-family: $font
+			text-align: center
+			padding: 15px 0
+		.text2
+			text-align: center
+			font-family: $font
+			padding-bottom: 25px
+		.text3	
+			text-align: center
+			font-family: $font
+			padding: 16px 0 10px 0
+			
+		.maket_img
+			padding: 20px 0 55px 0
+			text-align: center
+			img
+				width: 97%
+	.btn1
+		cursor: pointer
+		text-align: center
+		width: 150px
+		height: 40px
+		color: #333b46
+		padding: 6px 0 6px 0
+		border: 1px solid #000
+		border-radius: 35px
+		margin-bottom: 35px
+		font-family: $font1
+		&:hover
+			transition: 0.8s
+			border-radius: 40px
+			font-weight: bold
+			background-color: #19bd9a
+			color: #fff
+
+
+//-------------------------CONTACTS-----------------------
+
+.contacts
+	background-color: #f9f9f9
+	.dostavka
+		//float: left
+		.text
+			font-family: $font
+			font-size: 18px
+			font-weight: 600
+		.text1
+			font-family: $font
+			font-size: 16px
+			text-indent: 1.5em
+	.contact
+		//float: right
+		.mail
+			font-family: $font
+			font-size: 16px
+			font-weight: 600
+		.mail1
+			font-family: $font
+			text-indent: 1.5em
+		.telephone
+			font-family: $font
+			font-size: 16px
+			font-weight: 600
+		.telephone1
+			text-indent: 1.5em
+			font-family: $font
+		.address
+			font-family: $font
+			font-size: 16px
+			font-weight: 600
+		.address1
+			font-family: $font
+			text-indent: 1.5em
+			padding-bottom: 55px
+
+
+
+//----------------------------FORM---------------------
+
+
+.get
+	background-color: #f9f9f9
+	text-align: center
+	color: #fff
+	input
+		padding-left: 15px
+		line-height: 55px
+		width: 100%
+		margin-bottom: 25px
+		outline: none
+		border-radius: 25px
+		border: 1px solid #000
+		background-color: #f3f3f3
+		font-size: 18px
+		font-family: $font
+		color: #333b46
+	textarea
+		width: 100%
+		height: 185px
+		padding: 15px 0px 0px 15px
+		//margin-bottom: 16px
+		background-color: #f3f3f3
+		font-size: 18px
+		font-family: $font
+		color: #333b46
+		border: 1px solid #000
+		outline: none
+		border-radius: 45px
+
+	button
+		padding: 20px 80px
+		margin: 50px 0 80px
+		color: #333b46
+		font-family: $font1
+		font-size: 18px
+		outline: none
+		background-color: #f9f9f9
+		border: 1px solid #000
+		border-radius: 35px
+		&:hover
+			transition: 0.8s
+			border-radius: 40px
+			background-color: #19bd9a
+			color: #fff
+
+
+//----------------------------FOOTER---------------------
+
+
+footer
+	background-color: #f3f3f3	
+	.text
+		font-family: $font1
+		text-align: center
+		font-size: 16px
+		padding: 20px 0
+
+
+//-------------------------------TO_TOP--------------------
+
+
+.to_top
+	position: fixed
+	bottom: 30px
+	right: 30px
+	z-index: 15
+	img
+		width: 75px
+
+
+//-------------------------------BTN_MENU-------------------
+
+
+.btn_menu
+	display: none
+	border: none
+	background-color: transparent
+	outline: none
+	img
+		width: 35px
